@@ -1,0 +1,110 @@
+
+/*******************
+	General styling
+*******************/
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+	
+}
+
+img {
+	width: 20%;
+}
+
+.img-div {
+	margin-top: 10em;
+}
+
+/*******************
+	Modal div styling
+*******************/
+.modal {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 2em 0;
+	background-color: rgba(40, 40, 75, .98);
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+
+
+/*******************
+	Modal Launch Button styling
+*******************/
+
+#launch {
+	background-color: #191;
+	color: #fff;
+	padding: .5em 1em;
+	font-weight: bold;
+	font-size: 1.5em;
+	border: none;
+	border-bottom: 3px solid #333;
+	border-radius: 10px;
+	margin-top: 5em;
+	outline: none;
+}
+
+#launch:hover {
+	background-color: #171;
+}
+
+#launch:active {
+	border-bottom: 1px solid #333;
+	margin-top: 5.1em;
+}
+
+/*******************
+	Modal close Button styling
+*******************/
+
+.closeButton {
+	color: #fff;
+	background-color: #181;
+	padding: .5em 1em;
+	border: none;
+	border-radius: 5px;
+}
+
+/*******************
+	star class styling
+*******************/
+
+.stars {
+	background-color: #fff;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	box-shadow: 0 0 15px #fff;
+	animation: move 3s ease infinite alternate;
+}
+
+@keyframes move {
+	0% {
+		opacity: 0.1;
+	}
+
+	100% {
+		opacity: 1;
+		background-color: #770;
+	}
+}
+
